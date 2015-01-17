@@ -39,11 +39,9 @@ hr {
 p {
     color: #757B80;
 }
-#aboutme {
-    display: block;
-    margin-top: 0.10em;
-    margin-bottom: 0.10em;
-    margin-left: 0;
-    margin-right: 0;
-    text-indent: 2.5em;
+#meBox {
+    background-color: #c1c0c0;
+}
+#skillBox {
+    background-color: #b62d2d;
 }
