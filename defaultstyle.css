@@ -2,39 +2,48 @@ body {
     background-color: white;
     color: black;
 }
-
-img.mylogo {
+#mylogo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: none;
 }
-
-ul.menu{
+a {
+    text-decoration: none;
+    color: #a14b4b;
     text-align: center;
-    list-style-type: none;
 }
-
-li {
+#menu {
+    list-style-type: none;
+    color: #a14b4b;
+    text-align: center;
+    margin: 0 auto;
+}
+#menu li {
     display: inline;
 }
-
-hr{
+ol {
+    list-style-type: circle;
+}
+hr {
     margin-left: auto;
     margin-right: auto;
     border-width: 2px;
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-
 p {
     color: #757B80;
 }
-
-a {
-    color: #757B80;
+#aboutme {
+    display: block;
+    margin-top: 0.10em;
+    margin-bottom: 0.10em;
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 2.5em;
 }
