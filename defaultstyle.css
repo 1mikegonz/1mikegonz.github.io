@@ -40,12 +40,16 @@ p {
     color: #757B80;
 }
 #meBox {
-    background-color: #c1c0c0;
     float: left;
 }
+#aboutmetext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #skillBox {
-    background-color: #b62d2d;
     float: right;
+    text-align: center;
 }
 #skillstext {
     display: block;
