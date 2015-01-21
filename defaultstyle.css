@@ -13,6 +13,9 @@ a {
     color: #a14b4b;
     text-align: center;
 }
+a:hover{
+    font-weight: bold;
+}
 #menu {
     list-style-type: none;
     color: #a14b4b;
