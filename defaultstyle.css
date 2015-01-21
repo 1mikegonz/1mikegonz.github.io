@@ -1,6 +1,7 @@
 body {
     background-color: white;
     color: black;
+    font-family: 'PT Sans', sans-serif;
 }
 #mylogo {
     display: block;
@@ -44,6 +45,8 @@ p {
 }
 #meBox {
     float: left;
+    margin-left: 55px;
+    width: 40%;
 }
 #aboutmetext {
     display: block;
@@ -53,9 +56,11 @@ p {
 #skillBox {
     float: right;
     text-align: center;
+    font-weight:bolder;
+    width: 40%;
 }
 #skillstext {
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
